@@ -30,9 +30,9 @@ export default function App() {
                 </Tabs>
             </Box>
             <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route exact path="/complete" element={<Complete />} />
-                <Route exact path="/trash" element={<Trash />} />
+                <Route exact path="/" element={<Home data={"home"} />} />
+                <Route exact path="/complete" element={<Complete data={"complete"} />} />
+                <Route exact path="/trash" element={<Trash data={"trash"} />} />
             </Routes>
 
         </Router>
